@@ -1304,6 +1304,10 @@ body {
     display: block;
   }
 
+  .faq__media {
+    margin-right: 0;
+  }
+
   .faq__img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1370,6 +1374,10 @@ body {
 
   .burger-trigger span {
     height: 3px;
+  }
+
+  .faq__title {
+    margin-bottom: 30px;
   }
 
   .footer__bottom {

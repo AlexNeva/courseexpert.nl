@@ -35,6 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('.header');
     const menu = document.querySelector('.mob-menu');
 
+    if (!menu.classList.contains('active')) {
+
+      menu.style.zIndex = -1
+
+    }
+
 
     burgerTrigger.addEventListener('click', () => {
 
